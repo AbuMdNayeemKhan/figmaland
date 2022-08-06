@@ -1,0 +1,61 @@
+//==========Hero section style start here==========//
+.hero{
+    min-height: 885px;
+    background-image: url('../img/hero-cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -160px;
+    &-content{
+        width: 100%;
+        height: 885px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        &-title{
+            max-width: 750px;
+            margin-bottom: 40px;
+            h1{
+                // font-family: 'Graphik';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 74px;
+                line-height: 84px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #FFFFFF;
+            }
+        }
+        &-discription{
+            max-width: 750px;
+            margin-bottom: 50px;
+            p{
+            // font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            }
+        }
+        &-button{
+            a{
+                background-color: #2091F9;
+                text-decoration: none;
+                color: #ffffff;
+                padding: 16px 77px;
+                border-radius: 30px;
+                margin: 0;
+                &:hover{
+                    background-color: #E637B8;
+                    transition: all 300ms linear;
+                }
+            }
+        }
+    }
+}
+//==========Hero secton style end here==========//
