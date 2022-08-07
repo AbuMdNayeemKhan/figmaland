@@ -1,3 +1,69 @@
 //==========Features section start here==========// 
-
+.features{
+    padding: 75px 0;
+    text-align: center;
+    &-title{
+        h2{
+            // font-family: 'Graphik';    
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #252B42;
+            margin-bottom: 10px;
+        }
+    }
+    &-discription{
+        p{
+            // font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #374754;
+            margin-bottom: 80px;
+        }
+    }
+    &-card{
+        &-item{
+            padding: 0 95px;
+        &-icon{
+            margin-bottom: 17px;
+            img{}
+        }
+        &-title{
+            margin-bottom: 20px;
+            h4{
+            // font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: 0.1px;
+            color: #252B42;
+            }
+        }
+        &-discription{
+            p{
+                // font-family: 'Graphik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #374754;
+            }
+        }
+        }
+    }
+    &-video{
+        &-rapper{}
+    }
+}
 //==========Features section end here==========//

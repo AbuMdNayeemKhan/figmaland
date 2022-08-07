@@ -1,0 +1,42 @@
+//==========Organize section style start here==========// 
+.organize{
+    padding: 75px 0;
+    &-content{
+        &-title{
+            margin-bottom: 17px;
+            h4{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+                letter-spacing: 0.2px;
+                color: #252B42;
+            }
+        }
+        &-discription{
+            margin-bottom: 70px;
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: 0.2px;
+                color: #374754;
+            }
+        }
+        &-button{
+            a{
+                padding: 20px 80px;
+                background-color: #2091F9;
+                border: 1px solid #2091F9;
+                color: #ffffff;
+                text-decoration: none;
+                border-radius: 35px;
+            }
+        }
+    }
+    &-cover{
+        img{}
+    }
+}
+//==========Organize section style end here==========// 

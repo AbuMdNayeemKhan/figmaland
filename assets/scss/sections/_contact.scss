@@ -1,0 +1,97 @@
+//==========Contact section style start here==========// 
+.contact{
+    padding: 75px 0;
+    &-title{
+        margin-bottom: 17px;
+        h2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #252B42;
+        }
+    }
+    &-discription{
+        margin: auto;
+        margin-bottom: 60px;
+        max-width: 555px;
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #374754;
+        }
+    }
+    &-form{
+        width: 100%;
+        height: 100%;
+        &-wrapper{
+            border: 1px solid #DDDDDD;
+            padding: 50px;
+            margin: 0 70px;
+            border-radius: 20px;
+            h4{
+                margin-bottom: 45px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #252B42;
+                text-align: center;
+            }
+            input{
+                display: block;
+                width: 100%;
+                margin-bottom: 45px;
+                background-color: #F4F4F4;
+                border: 1px solid #E8E8E8;
+                padding: 15px 20px;
+                outline: none;
+                border-radius: 39px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            textarea{
+                display: block;
+                width: 100%;
+                min-height: 180px;
+                margin-bottom: 45px;
+                background-color: #F4F4F4;
+                border: 1px solid #E8E8E8;
+                padding: 15px 20px;
+                outline: none;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            input[type=submit]{
+                
+            }
+        }
+    }
+    &-address{
+        &-nav{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            &-location{
+                img{}
+                p{}
+            }
+            &-mobile{
+                img{}
+                p{}
+            }
+            &-mail{
+                img{}
+                p{}
+            }
+        }
+    }
+}
+//==========Contact section style end here==========//
