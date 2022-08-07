@@ -79,19 +79,49 @@
             display: flex;
             flex-wrap: nowrap;
             justify-content: space-between;
+
             &-location{
+                max-width: 300px;
+                text-align: center;
                 img{}
                 p{}
             }
             &-mobile{
+                max-width: 300px;
+                text-align: center;
                 img{}
                 p{}
             }
             &-mail{
+                max-width: 300px;
+                text-align: center;
                 img{}
                 p{}
             }
         }
+        &-map{
+            width: 100%;
+            min-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            iframe{
+                
+            }
+        }
+        &-icon{
+
+            ul{
+                padding: 0;
+                margin: 0;
+                max-height: 100px;
+                li{
+                    list-style-type: none;
+                }
+            }
+        }
     }
 }
+
+
 //==========Contact section style end here==========//

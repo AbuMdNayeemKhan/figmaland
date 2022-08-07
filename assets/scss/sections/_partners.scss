@@ -1,0 +1,30 @@
+//==========Partners sections style start==========// 
+.partners{
+    padding: 75px 0;
+    text-align: center;
+    &-tittle{
+        margin-bottom: 30px
+        h1{}
+    }
+    &-discription{
+        margin-bottom: 50px;
+        p{}
+    }
+    &-gallery{
+        margin-bottom: 90px;
+        img{}
+    }
+    &-btn{
+        a{
+            padding: 20px 80px;
+            background-color: #2091F9;
+            border: 1px solid #2091F9;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 35px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+//==========Partners sections style end==========// 
