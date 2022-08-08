@@ -1,9 +1,10 @@
 //==========Pricing section style start here==========//
 .pricing{
-    padding: 75px 0;
+    padding: 100px 0;
+    padding-top: 126px;
     background-color: #252B42;
     &-title{
-        margin-bottom: 17px;
+        margin-bottom: 20px;
         h2{
             font-style: normal;
             font-weight: 400;
@@ -15,7 +16,7 @@
         }
     }
     &-discription{
-        width: 545px;
+        max-width: 545px;
         margin: 0 auto;
         margin-bottom: 80px;
         p{
@@ -34,56 +35,6 @@
         min-height: 600px;
         margin: 25px;
         border-radius: 10px;
-        &:hover {
-            background-color: #2091F9;
-            color: #fff;
-            &-head{
-                &-title{
-                    p{
-                        color: #fff !important ;
-                    }
-                }
-                &-dis{
-                    p{
-
-                    }
-                }
-            }
-            &-price{
-
-                &-left{
-                    p{
-
-                    }
-                }
-                &-right{
-                    h6{
-
-                    }
-                    p{
-
-                    }
-                }
-            }
-            &-list{
-
-                ul{
-
-                    li{
-
-                        a{
-
-                        }
-                    }
-                }
-            }
-            &-button{
-
-                a{
-
-                }
-            }
-        }
         &-head{
             &-title{
                 p{
@@ -100,6 +51,8 @@
                 }
             }
             &-dis{
+                max-width: 150px;
+                margin: 0 auto;
                 p{
                     font-style: normal;
                     font-weight: 400;
@@ -108,7 +61,6 @@
                     text-align: center;
                     letter-spacing: 0.1px;
                     color: #374754;
-                    margin-bottom: 30px;
                 }
             }
         }
@@ -179,6 +131,56 @@
                 color: #FFFFFF;
             }
         }
+        // &:hover {
+        //     background-color: #2091F9;
+        //     color: #fff;
+        //     &-head{
+        //         &-title{
+        //             p{
+        //                 color: #fff !important ;
+        //             }
+        //         }
+        //         &-dis{
+        //             p{
+
+        //             }
+        //         }
+        //     }
+        //     &-price{
+        //         display: none;
+        //         &-left{
+        //             p{
+
+        //             }
+        //         }
+        //         &-right{
+        //             h6{
+
+        //             }
+        //             p{
+
+        //             }
+        //         }
+        //     }
+        //     &-list{
+
+        //         ul{
+
+        //             li{
+
+        //                 a{
+
+        //                 }
+        //             }
+        //         }
+        //     }
+        //     &-button{
+
+        //         a{
+
+        //         }
+        //     }
+        // }
     }
 }
 //==========Pricing section style end here==========// 

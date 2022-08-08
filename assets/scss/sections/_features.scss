@@ -16,6 +16,8 @@
         }
     }
     &-discription{
+        max-width: 525px;
+        margin: 0 auto;
         p{
             // font-family: 'Graphik';
             font-style: normal;
@@ -36,6 +38,7 @@
             img{}
         }
         &-title{
+            // max-width: 180px;
             margin-bottom: 20px;
             h4{
             // font-family: 'Graphik';
@@ -49,6 +52,7 @@
             }
         }
         &-discription{
+            
             p{
                 // font-family: 'Graphik';
                 font-style: normal;

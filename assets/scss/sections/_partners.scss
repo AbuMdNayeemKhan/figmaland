@@ -3,12 +3,30 @@
     padding: 75px 0;
     text-align: center;
     &-tittle{
-        margin-bottom: 30px
-        h1{}
+        margin-bottom: 20px;
+        h1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #252B42;
+        }
     }
     &-discription{
-        margin-bottom: 50px;
-        p{}
+        margin: 0 auto;
+        margin-bottom: 90px;
+        max-width: 555px;
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #374754;
+        }
     }
     &-gallery{
         margin-bottom: 90px;

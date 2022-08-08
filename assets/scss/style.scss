@@ -1,3 +1,7 @@
+//==========Using common items==========//
+@use "common/common";
+
+//==========Using partial section==========//
 @use "sections/navbar";
 @use "sections/hero";
 @use "sections/features";

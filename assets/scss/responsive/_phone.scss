@@ -1,0 +1,494 @@
+@media (max-width: 767.98px) { 
+    //==========Responsive for phone start==========//
+
+    //==========Hero section responsive start==========// 
+    .hero{
+        &-content{
+            height: 680px;
+            &-title{
+    
+                h1{
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 55px;
+                }
+            }
+            &-discription{
+                p{
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 40px;
+                }
+            }
+            &-button{
+                a{
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 20px;
+                    &:hover{
+    
+                    }
+                }
+            }
+        }
+    }
+    //==========Hero section responsive end==========// 
+
+    //==========Features section responsive start==========// 
+        .features{
+            &-title{
+                h2{
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 55px;
+                }
+            }
+            &-discription{
+
+                p{
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 40px;
+                    span{
+                        display: none;
+                    }
+                }
+            }
+            &-card{
+                &-item{
+                    padding: 0 55px;
+                    &-icon{
+
+                        img{}
+                    }
+                    &-title{
+
+                        h4{
+
+                        }
+                    }
+                    &-discription{
+                        
+                        p{
+
+                        }
+                    }
+                }
+            }
+            &-video{
+                &-rapper{}
+            }
+        }
+    //==========Features section responsive end==========//
+
+//==========Organize section responsive style start here==========// 
+.organize{
+
+    &-content{
+        text-align: center;
+        &-title{
+
+            h4{
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+            }
+        }
+        &-discription{
+
+            p{
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                span{
+                    display: none;
+                }
+            }
+        }
+        &-button{
+            a{
+
+            }
+        }
+    }
+    &-cover{
+        margin-top: 60px;
+        img{}
+    }
+}
+//==========Organize section responsive style end here==========// 
+
+//==========Prototyping responsive style start here==========// 
+.prototyping{
+    text-align: center;
+    &-cover{}
+    &-content{
+        margin: 0;
+        &-hero{
+            p{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+        &-title{
+
+            h2{
+                display: none;
+            }
+        }
+        &-newsletterTitle{
+            h4{
+
+            }
+        }
+        &-newsletterDis{
+
+            p{
+
+            }
+        }
+        &-newsletterform{
+            &-email{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            &-button{
+                width: 100%;
+            }
+        }
+    }
+}
+//==========Prototyping responsive style end here==========// 
+
+//==========Partners sections style start==========// 
+.partners{
+
+    &-tittle{
+
+        h1{
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+            letter-spacing: 0.2px;
+        }
+    }
+    &-discription{
+
+        p{
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            span{
+                display: none;
+            }
+        }
+    }
+    &-gallery{
+
+        img{
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &-btn{
+        a{
+
+        }
+    }
+}
+//==========Partners sections responsive style end==========// 
+
+//==========Testimonial section responsive start here==========// 
+.testimonial{
+
+    &-wrapper{
+        &-title{
+
+            h1{
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+            }
+        }
+        &-image{
+
+            img{}
+        }
+        &-comment{
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 17px;
+            p{
+
+            }
+        }
+        &-person{
+
+            &-image{
+
+            }
+            &-content{
+                &-name{
+                    p{
+
+                    }
+                }
+                &-profation{
+                    p{
+
+                    }
+                }
+            }
+        }
+        &-button{
+            a{
+
+            }
+        }
+    }
+}
+//==========Testimonial section responsive end here==========// 
+
+//==========Pricing section style start here==========//
+.pricing{
+
+    &-title{
+
+        h2{
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+        }
+    }
+    &-discription{
+
+        p{
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            span{
+                display: none;
+            }
+        }
+    }
+    &-card{
+        padding: 40px 10px;
+        &-head{
+            &-title{
+                p{
+
+                }
+            }
+            &-dis{
+
+                p{
+
+                }
+            }
+        }
+        &-price{
+
+            &-left{
+                p{
+
+                }
+            }
+            &-right{
+                h6{
+
+                }
+                p{
+
+                }
+            }
+        }
+        &-list{
+
+            ul{
+
+
+                li{
+
+                    a{
+
+                    }
+                }
+            }
+        }
+        &-button{
+            width: 100%;
+            a{
+                width: 100%;
+            }
+        }
+    }
+}
+//==========Pricing section style end here==========// 
+
+//==========Contact section responsive style start here==========// 
+.contact{
+    .row{
+        flex-direction: column-reverse;
+    }
+    &-title{
+
+        h2{
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+        }
+    }
+    &-discription{
+
+        p{
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            span{
+                display: none;
+            }
+        }
+    }
+    &-form{
+
+        &-wrapper{
+            margin: 0;
+            margin-bottom: 50px;
+            h4{
+
+            }
+            input{
+
+            }
+            textarea{
+
+            }
+            input[type=submit]{
+                margin-bottom: 0px;
+            }
+        }
+    }
+    &-address{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 80px;
+        gap: 80px;
+        &-nav{
+            flex-direction: column;
+            gap: 30px;
+            &-location{
+                max-width: 400px;
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                gap: 10px;
+                img{
+                    height: 32px;
+                    width: 26px;
+                    margin-left: 10px;
+                }
+                p{
+                    text-align: left;
+                }
+            }
+            &-mobile{
+                max-width: 400px;
+                display: flex;
+                // justify-content: space-between;
+                align-items: start;
+                gap: 17px;
+                img{
+                    height: 32px;
+                    width: 20px;
+                    margin-left: 10px;
+                }
+                p{
+                    text-align: left;
+                }
+            }
+            &-mail{
+                max-width: 400px;
+                display: flex;
+                // justify-content: space-between;
+                align-items: start;
+                gap: 13px;
+                img{
+                    height: 20px;
+                    width: 26px;
+                    margin-left: 10px;
+                }
+                p{
+                    text-align: left;
+                }
+            }
+        }
+        &-map{
+            display: none;
+            iframe{
+                
+            }
+        }
+        &-icon{
+            ul{
+                justify-content: center;
+                margin: auto;
+                li{
+
+                }
+            }
+        }
+    }
+}
+
+//==========Contact section responsive style end here==========//
+
+//==========Footer section style start here==========//
+.footer{
+    text-align: center;
+    ul{
+        min-height: 400px;
+        padding: 0;
+        align-items: center;
+        li{
+
+            a{
+
+            }
+            &:first-child{
+
+                a{
+
+                }
+            }
+        }
+    }
+    &-location{
+        padding: 20px;
+        text-align: left;
+        p{
+            &:last-child{
+                span{
+                    margin-right: 55px;
+                }
+            }
+            span{
+                
+            }
+        }
+        ul{
+            justify-content: center;
+            min-height: 100px;
+            overflow: hidden;
+            li{
+                img{}
+            }
+        }
+    }
+}
+//==========Footer section responsive style End here==========//
+
+//==========Responsive for phone end==========//
+}
