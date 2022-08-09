@@ -1,7 +1,6 @@
-@media (max-width: 767.98px) { 
-//==========Responsive for phone start==========//
-
-//==========Nav section responsive style start here==========// 
+@media (max-width: 991.98px) { 
+    //==========Responsive for tab start==========// 
+    //==========Nav section responsive style start here==========// 
 .navigation{
     height: 156px;
     position: relative;
@@ -66,7 +65,7 @@ dl, ol, ul {
             &-title{
     
                 h1{
-                    font-weight: 400;
+                    font-weight: 700;
                     font-size: 48px;
                     line-height: 55px;
                 }
@@ -102,19 +101,16 @@ dl, ol, ul {
                 }
             }
             &-discription{
-
-                p{
-                    font-weight: 400;
-                    font-size: 28px;
-                    line-height: 40px;
-                    span{
-                        display: none;
-                    }
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                span{
                 }
             }
             &-card{
+                margin-bottom: 70px;
                 &-item{
-                    padding: 0 55px;
+                    padding: 0 10px;
                     &-icon{
 
                         img{}
@@ -143,7 +139,6 @@ dl, ol, ul {
 .organize{
 
     &-content{
-        text-align: center;
         &-title{
 
             h4{
@@ -182,6 +177,7 @@ dl, ol, ul {
     &-cover{}
     &-content{
         margin: 0;
+        text-align: right;
         &-hero{
             p{
                 font-weight: 700;
@@ -243,11 +239,14 @@ dl, ol, ul {
         }
     }
     &-gallery{
-
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 70px;
         img{
-            width: 80%;
             height: auto;
-            margin: 0 auto;
+            width: 40%;
+            justify-content: space-between;
+            object-fit: cover;
             margin-bottom: 20px;
         }
     }
@@ -334,7 +333,7 @@ dl, ol, ul {
     }
     &-card{
         padding: 40px 10px;
-        margin-bottom: 15px;
+        margin: 0px;
         &-head{
             &-title{
                 p{
@@ -381,6 +380,8 @@ dl, ol, ul {
             width: 100%;
             a{
                 width: 100%;
+                font-size: 16px;
+                padding: 15px 50px;
             }
         }
     }
@@ -390,7 +391,7 @@ dl, ol, ul {
 //==========Contact section responsive style start here==========// 
 .contact{
     .row{
-        flex-direction: column-reverse;
+
     }
     &-title{
 
@@ -528,6 +529,7 @@ dl, ol, ul {
         padding: 20px;
         text-align: left;
         p{
+            text-align: center;
             &:last-child{
                 span{
                     margin-right: 55px;
@@ -548,6 +550,5 @@ dl, ol, ul {
     }
 }
 //==========Footer section responsive style End here==========//
-
-//==========Responsive for phone end==========//
+    //==========Responsive for tab end==========//
 }

@@ -1,0 +1,541 @@
+@media (max-width: 1399.98px) { 
+//==========Responsive for desktop start here==========//
+    //==========Nav section responsive style start here==========// 
+    .navigation{
+        height: 156px;
+    }
+
+        .navbar-light .navbar-nav .nav-link {
+        
+        &.active{
+    
+        }
+        &:hover{
+    
+        }
+    }
+    
+    // .nav-logo-item{
+    //     position: fixed;
+    //     top: 0;
+    //     left: 10px;
+    //     display: inline-block;
+    // }
+    
+    // .navbar-toggler {
+    //     z-index: 2;
+    // }
+    
+    // .navbar-light .navbar-nav .nav-link {
+    //     height: 0;
+    //     padding: 0;
+    //     letter-spacing: 0.2px;
+    //     color: #ffffff;
+    //     display: flex;
+    //     align-items: stretch;
+    //     &.active{
+    
+    //     }
+    //     &:hover{
+    
+    //     }
+    // }
+    
+    // .right-nav{
+    
+    //     li{
+    //         display: flex;
+    //     }
+    // }
+    
+    // dl, ol, ul {
+    //     margin-bottom: 1rem;
+    //     display: flex;
+    //     // gap: 30px;
+    //     height: 156px;
+    //     display: flex;
+    //     align-items: center;
+    // }
+    
+    // .custom-nav-bg-color{
+    //     width: 100%;
+    //     margin: 0 -14px;
+    //     margin-top: -48px;
+    //     padding-top: 48px;
+    //     z-index: 1;
+    //     background-color: black;
+    // }
+    //==========Nav section responsive style end here==========// 
+    
+        //==========Hero section responsive start==========// 
+        .hero{
+            &-content{
+                height: 680px;
+                &-title{
+        
+                    h1{
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 55px;
+                    }
+                }
+                &-discription{
+                    p{
+                        font-weight: 400;
+                        font-size: 28px;
+                        line-height: 40px;
+                    }
+                }
+                &-button{
+                    a{
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 20px;
+                        &:hover{
+        
+                        }
+                    }
+                }
+            }
+        }
+        //==========Hero section responsive end==========// 
+    
+        //==========Features section responsive start==========// 
+            .features{
+                &-title{
+                    h2{
+                        font-weight: 400;
+                        font-size: 48px;
+                        line-height: 55px;
+                    }
+                }
+                &-discription{
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 40px;
+                    span{
+                    }
+                }
+                &-card{
+                    margin-bottom: 70px;
+                    &-item{
+                        padding: 0 30px;
+                        &-icon{
+    
+                            img{}
+                        }
+                        &-title{
+    
+                            h4{
+    
+                            }
+                        }
+                        &-discription{
+                            
+                            p{
+    
+                            }
+                        }
+                    }
+                }
+                &-video{
+                    &-rapper{}
+                }
+            }
+        //==========Features section responsive end==========//
+    
+    //==========Organize section responsive style start here==========// 
+    .organize{
+    
+        &-content{
+            &-title{
+    
+                h4{
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 55px;
+                }
+            }
+            &-discription{
+    
+                p{
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 40px;
+                    span{
+                        display: block;
+                    }
+                }
+            }
+            &-button{
+                a{
+    
+                }
+            }
+        }
+        &-cover{
+            margin-top: 60px;
+            img{}
+        }
+    }
+    //==========Organize section responsive style end here==========// 
+    
+    //==========Prototyping responsive style start here==========// 
+    .prototyping{
+        text-align: center;
+        &-cover{}
+        &-content{
+            margin: 0;
+            text-align: right;
+            &-hero{
+                p{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+            &-title{
+    
+                h2{
+                    display: none;
+                }
+            }
+            &-newsletterTitle{
+                h4{
+    
+                }
+            }
+            &-newsletterDis{
+    
+                p{
+    
+                }
+            }
+            &-newsletterform{
+                &-email{
+                    width: 80%;
+                    margin-bottom: 10px;
+                }
+                &-button{
+                    width: 80%;
+                }
+            }
+        }
+    }
+    //==========Prototyping responsive style end here==========// 
+    
+    //==========Partners sections style start==========// 
+    .partners{
+    
+        &-tittle{
+    
+            h1{
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+                letter-spacing: 0.2px;
+            }
+        }
+        &-discription{
+    
+            p{
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                span{
+                    display: block;
+                }
+            }
+        }
+        &-gallery{
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            img{
+                height: auto;
+                width: 30%;
+                justify-content: space-between;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+        }
+        &-btn{
+            a{
+    
+            }
+        }
+    }
+    //==========Partners sections responsive style end==========// 
+    
+    //==========Testimonial section responsive start here==========// 
+    .testimonial{
+    
+        &-wrapper{
+            &-title{
+    
+                h1{
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 55px;
+                }
+            }
+            &-image{
+    
+                img{}
+            }
+            &-comment{
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 17px;
+                p{
+    
+                }
+            }
+            &-person{
+    
+                &-image{
+    
+                }
+                &-content{
+                    &-name{
+                        p{
+    
+                        }
+                    }
+                    &-profation{
+                        p{
+    
+                        }
+                    }
+                }
+            }
+            &-button{
+                a{
+    
+                }
+            }
+        }
+    }
+    //==========Testimonial section responsive end here==========// 
+    
+    //==========Pricing section style start here==========//
+    .pricing{
+    
+        &-title{
+    
+            h2{
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+            }
+        }
+        &-discription{
+    
+            p{
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                span{
+                    display: block;
+                }
+            }
+        }
+        &-card{
+            padding: 40px 10px;
+            margin: 20px;
+            &-head{
+                &-title{
+                    p{
+    
+                    }
+                }
+                &-dis{
+    
+                    p{
+    
+                    }
+                }
+            }
+            &-price{
+    
+                &-left{
+                    p{
+    
+                    }
+                }
+                &-right{
+                    h6{
+    
+                    }
+                    p{
+    
+                    }
+                }
+            }
+            &-list{
+    
+                ul{
+    
+    
+                    li{
+    
+                        a{
+    
+                        }
+                    }
+                }
+            }
+            &-button{
+                width: 100%;
+                a{
+                    width: 100%;
+                    font-size: 16px;
+                    padding: 15px 50px;
+                }
+            }
+        }
+    }
+    //==========Pricing section style end here==========// 
+    
+    //==========Contact section responsive style start here==========// 
+    .contact{
+        .row{
+
+        }
+        &-title{
+    
+            h2{
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+            }
+        }
+        &-discription{
+    
+            p{
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                span{
+                    display: block;
+                }
+            }
+        }
+        &-form{
+    
+            &-wrapper{
+                margin: 0;
+                margin-bottom: 50px;
+                h4{
+    
+                }
+                input{
+    
+                }
+                textarea{
+    
+                }
+                input[type=submit]{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        &-address{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 80px;
+            gap: 0px;
+            &-nav{
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+
+                &-location{
+                    max-width: 250px;
+                    text-align: center;
+                    img{}
+                    p{}
+                }
+                &-mobile{
+                    max-width: 250px;
+                    text-align: center;
+                    img{}
+                    p{}
+                }
+                &-mail{
+                    max-width: 250px;
+                    text-align: center;
+                    img{}
+                    p{}
+                }
+            }
+            &-map{
+                width: 100%;
+                iframe{
+                    height: 323px;
+                    width: 516px;
+                    margin: 0 auto;
+                }
+            }
+            &-icon{
+                ul{
+                    justify-content: start;
+                    margin: auto;
+                    max-height: 0;
+                    li{
+    
+                    }
+                }
+            }
+        }
+    }
+    
+    //==========Contact section responsive style end here==========//
+    
+    //==========Footer section style start here==========//
+    .footer{
+        text-align: left;
+        ul{
+            min-height: 400px;
+            padding: 0;
+            align-items: start;
+            li{
+    
+                a{
+    
+                }
+                &:first-child{
+    
+                    a{
+    
+                    }
+                }
+            }
+        }
+        &-location{
+            padding: 20px;
+            text-align: left;
+            p{
+                text-align: left;
+                &:last-child{
+                    span{
+                        margin-right: 55px;
+                    }
+                }
+                span{
+                    
+                }
+            }
+            ul{
+                justify-content: start;
+                min-height: 100px;
+                overflow: hidden;
+                li{
+                    img{}
+                }
+            }
+        }
+    }
+    //==========Footer section responsive style End here==========//
+//==========Responsive for desktop end here==========// 
+}

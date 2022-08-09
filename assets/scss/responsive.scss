@@ -1,6 +1,6 @@
 /* X-Large devices (large desktops, less than 1400px) */
-// @media (max-width: 1399.98px) {  }
+@use "responsive/desktop";
 /* Medium devices (tablets, less than 992px) */
-// @media (max-width: 991.98px) {  }
+@use "responsive/tab";
 /* Small devices (landscape phones, less than 768px) */
 @use "responsive/phone";
