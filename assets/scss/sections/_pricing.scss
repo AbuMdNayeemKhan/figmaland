@@ -105,12 +105,17 @@
             overflow: hidden;
             min-height: 280px;
             ul{
-                flex-direction: column;
                 padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
                 li{
                     list-style-type: none;
-                    a{
 
+                    a{
                     }
                 }
             }

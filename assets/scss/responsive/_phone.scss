@@ -1,70 +1,78 @@
 @media (max-width: 767.98px) { 
 //==========Responsive for phone start==========//
 
-//==========Nav section responsive style start here==========// 
-.navigation{
-    height: 156px;
-    position: relative;
-}
+//==========Nav section responsive end here==========//
+.nav-section{
+    height: 75px;
+    &-wrapper{
+    height: 75px;
+        position: relative;
+        &-bar{
+            position: absolute;
+            left: 0px;
+            top: 70px;
+            width: 107%;
+            margin-left: -12px;
+            margin-top: -70px;
+            background-color: gray;
+            padding: 50px 0;
+            padding-top: 100px;
+            z-index: 1;
+            margin-left: -120%;
+            transition: all 700ms linear;
+            &.active{
+                margin-left: -12px;
+            }
+            ul{
+                flex-direction: column;
+                margin-left: 30px;
+                li{
 
-.nav-logo-item{
-    position: fixed;
-    top: 0;
-    left: 10px;
-    display: inline-block;
-}
+                    a{
+                        color: #fff;
+                        &:hover{
 
-.navbar-toggler {
-    z-index: 2;
-}
+                        }
+                    }
+                }
+            }
+        }
+        &-logo{
+            z-index: 2;
+        }
+        &-icon{
+            display: none;
+            
+            position: absolute;
+            left: 0px;
+            top: 270px;
+            width: 107%;
+            margin-left: -12px;
+            background-color: gray;
+            ul{
 
-.navbar-light .navbar-nav .nav-link {
-    height: 0;
-    padding: 0;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-    display: flex;
-    align-items: stretch;
-    &.active{
+                li{
 
+                }
+            }
+        }
+        &-toggler{
+            z-index: 3;
+            display: block;
+            img{
+                border: 1px solid gray;
+                padding: 3px;
+            }
+        }
     }
-    &:hover{
-
-    }
 }
-
-.right-nav{
-
-    li{
-        display: flex;
-    }
-}
-
-dl, ol, ul {
-    margin-bottom: 1rem;
-    display: flex;
-    // gap: 30px;
-    height: 156px;
-    display: flex;
-    align-items: center;
-}
-
-.custom-nav-bg-color{
-    width: 100%;
-    margin: 0 -14px;
-    margin-top: -48px;
-    padding-top: 48px;
-    z-index: 1;
-    background-color: black;
-}
-//==========Nav section responsive style end here==========// 
-
+//==========Nav section responsvie end==========//
     //==========Hero section responsive start==========// 
     .hero{
         &-content{
             height: 680px;
             &-title{
-    
+                    margin-top: 190px;
                 h1{
                     font-weight: 400;
                     font-size: 48px;
@@ -367,7 +375,13 @@ dl, ol, ul {
         &-list{
 
             ul{
-
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
 
                 li{
 
@@ -434,7 +448,7 @@ dl, ol, ul {
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 80px;
-        gap: 80px;
+        gap: 100px;
         &-nav{
             flex-direction: column;
             gap: 30px;
@@ -471,7 +485,7 @@ dl, ol, ul {
             &-mail{
                 max-width: 400px;
                 display: flex;
-                // justify-content: space-between;
+                justify-content: space-between;
                 align-items: start;
                 gap: 13px;
                 img{
@@ -492,8 +506,12 @@ dl, ol, ul {
         }
         &-icon{
             ul{
+                display: flex;
                 justify-content: center;
                 margin: auto;
+                gap: 20px;
+                padding: 0;
+                margin: 0;
                 li{
 
                 }
@@ -510,14 +528,14 @@ dl, ol, ul {
     ul{
         min-height: 400px;
         padding: 0;
-        align-items: center;
+        text-align: center;
         li{
-
+            margin-bottom: 25px;
             a{
 
             }
             &:first-child{
-
+                margin-bottom: 35px;
                 a{
 
                 }

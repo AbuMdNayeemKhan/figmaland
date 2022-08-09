@@ -1,40 +1,49 @@
 //==========Nav section style start here==========// 
-.navigation{
-    height: 156px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    // font-family: 'Graphik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-    height: 156px;
-    display: flex;
-    align-items: center;
-    &.active{
-    color: #ffffff;
-    }
-    &:hover{
-        color: #E637B8;
-    }
-}
-.right-nav{
-    margin: 0;
-    li{
+.nav-section{
+    height: 165px;
+    &-wrapper{
+        height: 165px;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-bar{
+            ul{
+                display: flex;
+                gap: 20px;
+                margin: 0;
+                padding: 0;
+                li{
+                    list-style-type: none;
+                    cursor: pointer;
+                    a{
+                        color: #fff;
+                        text-decoration: none;
+                        transition: all 300ms linear;
+                        &:hover{
+                            color: #E637B8;
+                        }
+                    }
+                }
+            }
+        }
+        &-logo{}
+        &-icon{
+            ul{
+                display: flex;
+                gap: 20px;
+                margin: 0;
+                padding: 0;
+                li{
+                    list-style-type: none;
+                }
+            }
+        }
+        &-toggler{
+            display: none;
+            img{
+                
+            }
+        }
     }
-}
-
-dl, ol, ul {
-    margin-bottom: 1rem;
-    display: flex;
-    gap: 30px;
-    height: 156px;
-    display: flex;
-    align-items: center;
 }
 //==========Nav section style end here==========// 
