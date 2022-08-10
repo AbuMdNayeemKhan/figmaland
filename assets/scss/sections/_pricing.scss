@@ -1,39 +1,39 @@
 //==========Pricing section style start here==========//
 .pricing{
-    padding: 150px 0;
-    padding-top: 126px;
+    padding: 9.375rem 0;
+    padding-top: 7.875rem;
     background-color: #252B42;
     &-title{
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         h2{
             font-style: normal;
             font-weight: 400;
-            font-size: 48px;
-            line-height: 55px;
+            font-size: 3rem;
+            line-height: 3.4375rem;
             text-align: center;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
             color: #FFFFFF;
         }
     }
     &-discription{
-        max-width: 545px;
+        max-width: 34.0625rem;
         margin: 0 auto;
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
         p{
             font-style: normal;
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             text-align: center;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
             color: #FFFFFF;
         }
     }
     &-card{
         background-color: #fff;
-        padding: 40px;
+        padding: 2.5rem;
         min-height: 600px;
-        margin: 25px;
+        margin: 1.5625rem;
         border-radius: 10px;
         transition: .5s;
         &-head{
@@ -41,11 +41,11 @@
                 p{
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     line-height: 28px;
-                    letter-spacing: 0.1px;
+                    letter-spacing: 0.0063rem;
                     color: #252B42;
-                    margin-bottom: 3px;
+                    margin-bottom: 0.1875rem;
                     text-transform: uppercase;
                     display: block;
                     text-align: center;
@@ -57,10 +57,10 @@
                 p{
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 16px;
+                    font-size: 1rem;
                     line-height: 23px;
                     text-align: center;
-                    letter-spacing: 0.1px;
+                    letter-spacing: 0.0063rem;
                     color: #374754;
                 }
             }
@@ -73,18 +73,18 @@
                 p{
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 74px;
-                    letter-spacing: 0.2px;
+                    font-size: 4.625rem;
+                    letter-spacing: 0.0125rem;
                     color: #252B42;
-                    margin-right: 20px;
+                    margin-right: 1.25rem;
                 }
             }
             &-right{
                 h6{
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 20px;
-                    letter-spacing: 0.1px;
+                    font-size: 1.25rem;
+                    letter-spacing: 0.0063rem;
                     color: #252B42;
                     padding: 0;
                     margin: 0;
@@ -92,9 +92,9 @@
                 p{
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 16px;
-                    line-height: 23px;
-                    letter-spacing: 0.1px;
+                    font-size: 1rem;
+                    line-height: 1.4375rem;
+                    letter-spacing: 0.0063rem;
                     color: #374754;
                     padding: 0;
                     margin: 0;;
@@ -128,12 +128,12 @@
             a{
                 font-style: normal;
                 font-weight: 400;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 20px;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.0125rem;
                 background-color: #2091F9;
                 text-decoration: none;
-                padding: 15px 78px;
+                padding: 0.9375rem 4.875rem;
                 border-radius: 35px;
                 color: #FFFFFF;
             }

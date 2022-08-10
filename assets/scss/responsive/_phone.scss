@@ -12,21 +12,21 @@
             left: 0px;
             top: 70px;
             width: 107%;
-            margin-left: -12px;
-            margin-top: -70px;
+            margin-left: -0.75rem;
+            margin-top: -4.375rem;
             background-color: gray;
             height: 100vh;
-            padding: 50px 0;
-            padding-top: 100px;
+            padding: 3.125rem 0;
+            padding-top: 6.25rem;
             z-index: 1;
             margin-left: -120%;
             transition: all 700ms linear;
             &.active{
-                margin-left: -12px;
+                margin-left: -0.75rem;
             }
             ul{
                 flex-direction: column;
-                margin-left: 30px;
+                margin-left: 1.875rem;
                 li{
 
                     a{
@@ -48,7 +48,7 @@
             left: 0px;
             top: 270px;
             width: 107%;
-            margin-left: -12px;
+            margin-left: -0.75rem;
             background-color: gray;
             ul{
 
@@ -62,7 +62,7 @@
             display: block;
             img{
                 border: 1px solid gray;
-                padding: 3px;
+                padding: 0.1875rem;
             }
         }
     }
@@ -73,24 +73,24 @@
         &-content{
             height: 680px;
             &-title{
-                    margin-top: 190px;
+                    margin-top: 11.875rem;
                 h1{
                     font-weight: 400;
-                    font-size: 48px;
+                    font-size: 3rem;
                     line-height: 55px;
                 }
             }
             &-discription{
                 p{
                     font-weight: 400;
-                    font-size: 28px;
+                    font-size: 1.75rem;
                     line-height: 40px;
                 }
             }
             &-button{
                 a{
                     font-weight: 400;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     line-height: 20px;
                     &:hover{
     
@@ -106,7 +106,7 @@
             &-title{
                 h2{
                     font-weight: 400;
-                    font-size: 48px;
+                    font-size: 3rem;
                     line-height: 55px;
                 }
             }
@@ -114,7 +114,7 @@
 
                 p{
                     font-weight: 400;
-                    font-size: 28px;
+                    font-size: 1.75rem;
                     line-height: 40px;
                     span{
                         display: none;
@@ -123,7 +123,7 @@
             }
             &-card{
                 &-item{
-                    padding: 0 55px;
+                    padding: 0 3.4375rem;
                     &-icon{
 
                         img{}
@@ -157,7 +157,7 @@
 
             h4{
                 font-weight: 400;
-                font-size: 48px;
+                font-size: 3rem;
                 line-height: 55px;
             }
         }
@@ -165,7 +165,7 @@
 
             p{
                 font-weight: 400;
-                font-size: 28px;
+                font-size: 1.75rem;
                 line-height: 40px;
                 span{
                     display: none;
@@ -179,7 +179,7 @@
         }
     }
     &-cover{
-        margin-top: 60px;
+        margin-top: 3.75rem;
         img{}
     }
 }
@@ -194,7 +194,7 @@
         &-hero{
             p{
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 28px;
                 text-align: center;
             }
@@ -220,7 +220,7 @@
         &-newsletterform{
             &-email{
                 width: 100%;
-                margin-bottom: 10px;
+                margin-bottom: 0.625rem;
             }
             &-button{
                 width: 100%;
@@ -237,7 +237,7 @@
 
         h1{
             font-weight: 400;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 55px;
             letter-spacing: 0.2px;
         }
@@ -246,7 +246,7 @@
 
         p{
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             span{
                 display: none;
@@ -259,7 +259,7 @@
             width: 80%;
             height: auto;
             margin: 0 auto;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
     }
     &-btn{
@@ -278,7 +278,7 @@
 
             h1{
                 font-weight: 400;
-                font-size: 48px;
+                font-size: 3rem;
                 line-height: 55px;
             }
         }
@@ -288,7 +288,7 @@
         }
         &-comment{
             font-weight: 700;
-            font-size: 13px;
+            font-size: 0.8125rem;
             line-height: 17px;
             p{
 
@@ -328,7 +328,7 @@
 
         h2{
             font-weight: 400;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 55px;
         }
     }
@@ -336,7 +336,7 @@
 
         p{
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             span{
                 display: none;
@@ -344,8 +344,8 @@
         }
     }
     &-card{
-        padding: 40px 10px;
-        margin-bottom: 15px;
+        padding: 2.5rem 0.625rem;
+        margin-bottom: 0.9375rem;
         &-head{
             &-title{
                 p{
@@ -413,7 +413,7 @@
 
         h2{
             font-weight: 400;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 55px;
         }
     }
@@ -421,7 +421,7 @@
 
         p{
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             span{
                 display: none;
@@ -432,7 +432,7 @@
 
         &-wrapper{
             margin: 0;
-            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
             h4{
 
             }
@@ -443,14 +443,14 @@
 
             }
             input[type=submit]{
-                margin-bottom: 0px;
+                margin-bottom: 0rem;
             }
         }
     }
     &-address{
         display: flex;
         flex-direction: column-reverse;
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
         gap: 100px;
         &-nav{
             flex-direction: column;
@@ -464,7 +464,7 @@
                 img{
                     height: 32px;
                     width: 26px;
-                    margin-left: 10px;
+                    margin-left: 0.625rem;
                 }
                 p{
                     text-align: left;
@@ -479,7 +479,7 @@
                 img{
                     height: 32px;
                     width: 20px;
-                    margin-left: 10px;
+                    margin-left: 0.625rem;
                 }
                 p{
                     text-align: left;
@@ -494,7 +494,7 @@
                 img{
                     height: 20px;
                     width: 26px;
-                    margin-left: 10px;
+                    margin-left: 0.625rem;
                 }
                 p{
                     text-align: left;
@@ -533,12 +533,12 @@
         padding: 0;
         text-align: center;
         li{
-            margin-bottom: 0px;
+            margin-bottom: 0rem;
             a{
 
             }
             &:first-child{
-                margin-bottom: 10px;
+                margin-bottom: 0.625rem;
                 a{
 
                 }
@@ -546,12 +546,12 @@
         }
     }
     &-location{
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
         p{
             &:last-child{
                 span{
-                    margin-right: 55px;
+                    margin-right: 3.4375rem;
                 }
             }
             span{

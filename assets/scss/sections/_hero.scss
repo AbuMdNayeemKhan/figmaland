@@ -5,7 +5,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: -160px;
+    margin-top: -10rem;
     z-index: 5;
     
     &-content{
@@ -18,29 +18,29 @@
         color: #ffffff;
         &-title{
             max-width: 750px;
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
             h1{
                 font-family: 'Graphik';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 74px;
+                font-size: 4.625rem;
                 line-height: 84px;
                 text-align: center;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.0125rem;
                 color: #FFFFFF;
             }
         }
         &-discription{
             max-width: 780px;
-            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
             p{
             // font-family: 'Graphik';
             font-style: normal;
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             text-align: center;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
             color: #FFFFFF;
             }
         }
@@ -49,10 +49,10 @@
                 background-color: #2091F9;
                 text-decoration: none;
                 color: #ffffff;
-                padding: 16px 77px;
+                padding: 1rem 4.8125rem;
                 border-radius: 30px;
                 margin: 0;
-                font-size: 20px;
+                font-size: 1.25rem;
                 font-weight: 400;
                 &:hover{
                     background-color: #E637B8;

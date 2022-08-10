@@ -1,27 +1,27 @@
 //==========Prototyping style start here==========// 
 .prototyping{
-    padding: 150px 0;
+    padding: 9.375rem 0;
     &-cover{}
     &-content{
         margin-left: 15%;
         &-hero{
-            margin-bottom: 10px;
+            margin-bottom: 0.625rem;
             p{
                 font-style: normal;
                 font-weight: 700;
-                font-size: 20px;
-                letter-spacing: 0.1px;
+                font-size: 1.25rem;
+                letter-spacing: 0.0063rem;
                 color: #252B42;
             }
         }
         &-title{
-            margin-bottom: 25px;
+            margin-bottom: 1.5625rem;
             h2{
                 font-style: normal;
                 font-weight: 400;
-                font-size: 48px;
+                font-size: 3rem;
                 line-height: 55px;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.0125rem;
                 color: #252B42;
             }
         }
@@ -29,20 +29,20 @@
             h4{
                 font-style: normal;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 28px;
-                letter-spacing: 0.1px;
+                letter-spacing: 0.0063rem;
                 color: #252B42;
             }
         }
         &-newsletterDis{
-            margin-bottom: 36px;
+            margin-bottom: 2.25rem;
             p{
                 font-style: normal;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 1.125rem;
                 line-height: 25px;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.0125rem;
                 color: #374754;
             }
         }
@@ -50,20 +50,20 @@
             &-email{
                 background-color: #F4F4F4;
                 border: 1px solid #E8E8E8;
-                padding: 15px 39px;
+                padding: 0.9375rem 2.4375rem;
                 outline: none;
                 border-radius: 39px;
-                font-size: 14px;
+                font-size: 0.875rem;
                 font-weight: 400;
             }
             &-button{
                 background-color: #2091F9;
                 border: 1px solid #2091F9;
                 color: #ffffff;
-                padding: 10px 50px;
+                padding: 0.625rem 3.125rem;
                 outline: none;
-                border-radius: 39px;
-                font-size: 20px;
+                border-radius: 2.4375rem;
+                font-size: 1.25rem;
                 font-weight: 400;
                 transition: all 500ms linear;
                 &:hover{

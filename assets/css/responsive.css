@@ -4,50 +4,50 @@
   }
   .hero-content-title h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .hero-content-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .hero-content-button a {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 20px;
   }
   .features-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .features-discription {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .features-card {
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
   }
   .features-card-item {
-    padding: 0 30px;
+    padding: 0 1.875rem;
   }
   .organize-content-title h4 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .organize-content-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .organize-content-discription p span {
     display: block;
   }
   .organize-cover {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   .prototyping {
     text-align: center;
@@ -58,7 +58,7 @@
   }
   .prototyping-content-hero p {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 28px;
   }
   .prototyping-content-title h2 {
@@ -66,20 +66,20 @@
   }
   .prototyping-content-newsletterform-email {
     width: 80%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .prototyping-content-newsletterform-button {
     width: 80%;
   }
   .partners-tittle h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
     letter-spacing: 0.2px;
   }
   .partners-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .partners-discription p span {
@@ -88,58 +88,58 @@
   .partners-gallery {
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
   }
   .partners-gallery img {
     height: auto;
     width: 30%;
     justify-content: space-between;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .testimonial-wrapper-title h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .testimonial-wrapper-comment {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 17px;
   }
   .pricing-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .pricing-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .pricing-discription p span {
     display: block;
   }
   .pricing-card {
-    padding: 40px 10px;
-    margin: 20px;
+    padding: 2.5rem 0.625rem;
+    margin: 1.25rem;
   }
   .pricing-card-button {
     width: 100%;
   }
   .pricing-card-button a {
     width: 100%;
-    font-size: 16px;
-    padding: 15px 50px;
+    font-size: 1rem;
+    padding: 0.9375rem 3.125rem;
   }
   .contact-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .contact-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .contact-discription p span {
@@ -147,15 +147,15 @@
   }
   .contact-form-wrapper {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .contact-form-wrapper input[type=submit] {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
   }
   .contact-address {
     display: flex;
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     gap: 0px;
   }
   .contact-address-nav {
@@ -197,14 +197,14 @@
     align-items: start;
   }
   .footer-location {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
   }
   .footer-location p {
     text-align: left;
   }
   .footer-location p:last-child span {
-    margin-right: 55px;
+    margin-right: 3.4375rem;
   }
   .footer-location ul {
     justify-content: start;
@@ -218,50 +218,50 @@
   }
   .hero-content-title h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .hero-content-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .hero-content-button a {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 20px;
   }
   .features-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .features-discription {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .features-card {
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
   }
   .features-card-item {
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
   .organize-content-title h4 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .organize-content-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .organize-content-discription p span {
     display: none;
   }
   .organize-cover {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   .prototyping {
     text-align: center;
@@ -272,7 +272,7 @@
   }
   .prototyping-content-hero p {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 28px;
   }
   .prototyping-content-title h2 {
@@ -280,20 +280,20 @@
   }
   .prototyping-content-newsletterform-email {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .prototyping-content-newsletterform-button {
     width: 100%;
   }
   .partners-tittle h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.0125rem;
   }
   .partners-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .partners-discription p span {
@@ -302,58 +302,58 @@
   .partners-gallery {
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
   }
   .partners-gallery img {
     height: auto;
     width: 40%;
     justify-content: space-between;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .testimonial-wrapper-title h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .testimonial-wrapper-comment {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 17px;
   }
   .pricing-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .pricing-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .pricing-discription p span {
     display: none;
   }
   .pricing-card {
-    padding: 40px 10px;
-    margin: 0px;
+    padding: 2.5rem 0.625rem;
+    margin: 0rem;
   }
   .pricing-card-button {
     width: 100%;
   }
   .pricing-card-button a {
     width: 100%;
-    font-size: 16px;
-    padding: 15px 50px;
+    font-size: 1rem;
+    padding: 0.9375rem 3.125rem;
   }
   .contact-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .contact-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .contact-discription p span {
@@ -361,15 +361,15 @@
   }
   .contact-form-wrapper {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .contact-form-wrapper input[type=submit] {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
   }
   .contact-address {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     gap: 80px;
   }
   .contact-address-nav {
@@ -386,7 +386,7 @@
   .contact-address-nav-location img {
     height: 32px;
     width: 26px;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .contact-address-nav-location p {
     text-align: left;
@@ -400,7 +400,7 @@
   .contact-address-nav-mobile img {
     height: 32px;
     width: 20px;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .contact-address-nav-mobile p {
     text-align: left;
@@ -414,7 +414,7 @@
   .contact-address-nav-mail img {
     height: 20px;
     width: 26px;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .contact-address-nav-mail p {
     text-align: left;
@@ -435,14 +435,14 @@
     align-items: center;
   }
   .footer-location {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
   }
   .footer-location p {
     text-align: center;
   }
   .footer-location p:last-child span {
-    margin-right: 55px;
+    margin-right: 3.4375rem;
   }
   .footer-location ul {
     justify-content: center;
@@ -463,22 +463,22 @@
     left: 0px;
     top: 70px;
     width: 107%;
-    margin-left: -12px;
-    margin-top: -70px;
+    margin-left: -0.75rem;
+    margin-top: -4.375rem;
     background-color: gray;
     height: 100vh;
-    padding: 50px 0;
-    padding-top: 100px;
+    padding: 3.125rem 0;
+    padding-top: 6.25rem;
     z-index: 1;
     margin-left: -120%;
     transition: all 700ms linear;
   }
   .nav-section-wrapper-bar.active {
-    margin-left: -12px;
+    margin-left: -0.75rem;
   }
   .nav-section-wrapper-bar ul {
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 1.875rem;
   }
   .nav-section-wrapper-bar ul li a {
     color: #fff;
@@ -492,7 +492,7 @@
     left: 0px;
     top: 270px;
     width: 107%;
-    margin-left: -12px;
+    margin-left: -0.75rem;
     background-color: gray;
   }
   .nav-section-wrapper-toggler {
@@ -501,63 +501,63 @@
   }
   .nav-section-wrapper-toggler img {
     border: 1px solid gray;
-    padding: 3px;
+    padding: 0.1875rem;
   }
   .hero-content {
     height: 680px;
   }
   .hero-content-title {
-    margin-top: 190px;
+    margin-top: 11.875rem;
   }
   .hero-content-title h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .hero-content-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .hero-content-button a {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 20px;
   }
   .features-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .features-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .features-discription p span {
     display: none;
   }
   .features-card-item {
-    padding: 0 55px;
+    padding: 0 3.4375rem;
   }
   .organize-content {
     text-align: center;
   }
   .organize-content-title h4 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .organize-content-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .organize-content-discription p span {
     display: none;
   }
   .organize-cover {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
   .prototyping {
     text-align: center;
@@ -567,7 +567,7 @@
   }
   .prototyping-content-hero p {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 28px;
     text-align: center;
   }
@@ -582,20 +582,20 @@
   }
   .prototyping-content-newsletterform-email {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .prototyping-content-newsletterform-button {
     width: 100%;
   }
   .partners-tittle h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
     letter-spacing: 0.2px;
   }
   .partners-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .partners-discription p span {
@@ -605,34 +605,34 @@
     width: 80%;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .testimonial-wrapper-title h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .testimonial-wrapper-comment {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 17px;
   }
   .pricing-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .pricing-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .pricing-discription p span {
     display: none;
   }
   .pricing-card {
-    padding: 40px 10px;
-    margin-bottom: 15px;
+    padding: 2.5rem 0.625rem;
+    margin-bottom: 0.9375rem;
   }
   .pricing-card-list ul {
     padding: 0;
@@ -654,12 +654,12 @@
   }
   .contact-title h2 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 55px;
   }
   .contact-discription p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 40px;
   }
   .contact-discription p span {
@@ -667,15 +667,15 @@
   }
   .contact-form-wrapper {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .contact-form-wrapper input[type=submit] {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
   }
   .contact-address {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     gap: 100px;
   }
   .contact-address-nav {
@@ -692,7 +692,7 @@
   .contact-address-nav-location img {
     height: 32px;
     width: 26px;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .contact-address-nav-location p {
     text-align: left;
@@ -706,7 +706,7 @@
   .contact-address-nav-mobile img {
     height: 32px;
     width: 20px;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .contact-address-nav-mobile p {
     text-align: left;
@@ -721,7 +721,7 @@
   .contact-address-nav-mail img {
     height: 20px;
     width: 26px;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   .contact-address-nav-mail p {
     text-align: left;
@@ -746,17 +746,17 @@
     text-align: center;
   }
   .footer ul li {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
   }
   .footer ul li:first-child {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .footer-location {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
   }
   .footer-location p:last-child span {
-    margin-right: 55px;
+    margin-right: 3.4375rem;
   }
   .footer-location ul {
     justify-content: center;

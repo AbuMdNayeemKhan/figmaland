@@ -1,46 +1,46 @@
 //==========Partners sections style start==========// 
 .partners{
-    padding: 150px 0;
+    padding: 9.375rem 0;
     text-align: center;
     &-tittle{
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         h1{
             font-style: normal;
             font-weight: 400;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 55px;
             text-align: center;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
             color: #252B42;
         }
     }
     &-discription{
         margin: 0 auto;
-        margin-bottom: 90px;
-        max-width: 555px;
+        margin-bottom: 5.625rem;
+        max-width: 34.6875rem;
         p{
             font-style: normal;
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             text-align: center;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
             color: #374754;
         }
     }
     &-gallery{
-        margin-bottom: 90px;
+        margin-bottom: 5.625rem;
         img{}
     }
     &-btn{
         a{
-            padding: 20px 80px;
+            padding: 1.25rem 5rem;
             background-color: #2091F9;
             border: 1px solid #2091F9;
             color: #ffffff;
             text-decoration: none;
             border-radius: 35px;
-            font-size: 20px;
+            font-size: 1.25rem;
             font-weight: 700;
             &:hover{
                 background-color: #E637B8;

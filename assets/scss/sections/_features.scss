@@ -1,18 +1,18 @@
 //==========Features section start here==========// 
 .features{
-    padding: 150px 0;
+    padding: 9.375rem 0;
     text-align: center;
     &-title{
         h2{
             // font-family: 'Graphik';    
             font-style: normal;
             font-weight: 400;
-            font-size: 48px;
-            line-height: 55px;
+            font-size: 3rem;
+            line-height: 3.4375rem;
             text-align: center;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
             color: #252B42;
-            margin-bottom: 10px;
+            margin-bottom: 0.625rem;
         }
     }
     &-discription{
@@ -22,32 +22,32 @@
             // font-family: 'Graphik';
             font-style: normal;
             font-weight: 400;
-            font-size: 28px;
-            line-height: 40px;
+            font-size: 1.75rem;
+            line-height: 2.5rem;
             text-align: center;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
             color: #374754;
-            margin-bottom: 80px;
+            margin-bottom: 5rem;
         }
     }
     &-card{
         &-item{
-            padding: 0 95px;
+            padding: 0 5.9375rem;
         &-icon{
-            margin-bottom: 17px;
+            margin-bottom: 1.0625rem;
             img{}
         }
         &-title{
             // max-width: 180px;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
             h4{
             // font-family: 'Graphik';
             font-style: normal;
             font-weight: 700;
-            font-size: 20px;
-            line-height: 28px;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
             text-align: center;
-            letter-spacing: 0.1px;
+            letter-spacing: 0.0063rem;
             color: #252B42;
             }
         }
@@ -57,10 +57,10 @@
                 // font-family: 'Graphik';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 1.125rem;
                 line-height: 25px;
                 text-align: center;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.0125rem;
                 color: #374754;
             }
         }

@@ -1,6 +1,6 @@
 //==========Footer section style start here==========//
 .footer{
-    padding: 150px 0;
+    padding: 9.375rem 0;
     background-color: #252B42;
     ul{
         padding: 0;
@@ -18,7 +18,7 @@
                 // font-family: 'Graphik';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 letter-spacing: 0.2px;
                 &:hover{
                     color: #E637B8;
@@ -26,10 +26,10 @@
                 }
             }
             &:first-child{
-                margin-bottom: 10px;
+                margin-bottom: 0.625rem;
                 a{
                     font-weight: 700;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                 }
             }
         }
@@ -38,8 +38,8 @@
         p{
             color: #ffffff;
             span{
-                margin-right: 15px;
-                font-size: 32px;
+                margin-right: 0.9375rem;
+                font-size: 2rem;
             }
         }
         ul{
@@ -48,11 +48,11 @@
             justify-content: start;
             padding: 0;
             margin: 0;
-            margin-top: 30px;
+            margin-top: 1.875rem;
             li{
                 a{
                     color: #fff;
-                    font-size: 32px !important;
+                    font-size: 2rem !important;
                     transition: 0.5s;
                     &:hover{
                         color: #E637B8;

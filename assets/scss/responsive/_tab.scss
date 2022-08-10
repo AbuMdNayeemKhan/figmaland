@@ -10,21 +10,21 @@
     
                 h1{
                     font-weight: 700;
-                    font-size: 48px;
+                    font-size: 3rem;
                     line-height: 55px;
                 }
             }
             &-discription{
                 p{
                     font-weight: 400;
-                    font-size: 28px;
+                    font-size: 1.75rem;
                     line-height: 40px;
                 }
             }
             &-button{
                 a{
                     font-weight: 400;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     line-height: 20px;
                     &:hover{
     
@@ -40,21 +40,21 @@
             &-title{
                 h2{
                     font-weight: 400;
-                    font-size: 48px;
+                    font-size: 3rem;
                     line-height: 55px;
                 }
             }
             &-discription{
                 font-weight: 400;
-                font-size: 28px;
+                font-size: 1.75rem;
                 line-height: 40px;
                 span{
                 }
             }
             &-card{
-                margin-bottom: 70px;
+                margin-bottom: 4.375rem;
                 &-item{
-                    padding: 0 10px;
+                    padding: 0 0.625rem;
                     &-icon{
 
                         img{}
@@ -87,7 +87,7 @@
 
             h4{
                 font-weight: 400;
-                font-size: 48px;
+                font-size: 3rem;
                 line-height: 55px;
             }
         }
@@ -95,7 +95,7 @@
 
             p{
                 font-weight: 400;
-                font-size: 28px;
+                font-size: 1.75rem;
                 line-height: 40px;
                 span{
                     display: none;
@@ -109,7 +109,7 @@
         }
     }
     &-cover{
-        margin-top: 60px;
+        margin-top: 3.75rem;
         img{}
     }
 }
@@ -125,7 +125,7 @@
         &-hero{
             p{
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 28px;
             }
         }
@@ -149,7 +149,7 @@
         &-newsletterform{
             &-email{
                 width: 100%;
-                margin-bottom: 10px;
+                margin-bottom: 0.625rem;
             }
             &-button{
                 width: 100%;
@@ -166,16 +166,16 @@
 
         h1{
             font-weight: 400;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 55px;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.0125rem;
         }
     }
     &-discription{
 
         p{
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             span{
                 display: block;
@@ -185,13 +185,13 @@
     &-gallery{
         width: 100%;
         margin: 0 auto;
-        margin-bottom: 70px;
+        margin-bottom: 4.375rem;
         img{
             height: auto;
             width: 40%;
             justify-content: space-between;
             object-fit: cover;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
     }
     &-btn{
@@ -210,7 +210,7 @@
 
             h1{
                 font-weight: 400;
-                font-size: 48px;
+                font-size: 3rem;
                 line-height: 55px;
             }
         }
@@ -220,7 +220,7 @@
         }
         &-comment{
             font-weight: 700;
-            font-size: 13px;
+            font-size: 0.8125rem;
             line-height: 17px;
             p{
 
@@ -260,7 +260,7 @@
 
         h2{
             font-weight: 400;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 55px;
         }
     }
@@ -268,7 +268,7 @@
 
         p{
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             span{
                 display: none;
@@ -276,8 +276,8 @@
         }
     }
     &-card{
-        padding: 40px 10px;
-        margin: 0px;
+        padding: 2.5rem 0.625rem;
+        margin: 0rem;
         &-head{
             &-title{
                 p{
@@ -324,8 +324,8 @@
             width: 100%;
             a{
                 width: 100%;
-                font-size: 16px;
-                padding: 15px 50px;
+                font-size: 1rem;
+                padding: 0.9375rem 3.125rem;
             }
         }
     }
@@ -341,7 +341,7 @@
 
         h2{
             font-weight: 400;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 55px;
         }
     }
@@ -349,7 +349,7 @@
 
         p{
             font-weight: 400;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 40px;
             span{
                 display: none;
@@ -360,7 +360,7 @@
 
         &-wrapper{
             margin: 0;
-            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
             h4{
 
             }
@@ -371,14 +371,14 @@
 
             }
             input[type=submit]{
-                margin-bottom: 0px;
+                margin-bottom: 0rem;
             }
         }
     }
     &-address{
         display: flex;
         flex-direction: column-reverse;
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
         gap: 80px;
         &-nav{
             flex-direction: column;
@@ -392,7 +392,7 @@
                 img{
                     height: 32px;
                     width: 26px;
-                    margin-left: 10px;
+                    margin-left: 0.625rem;
                 }
                 p{
                     text-align: left;
@@ -407,7 +407,7 @@
                 img{
                     height: 32px;
                     width: 20px;
-                    margin-left: 10px;
+                    margin-left: 0.625rem;
                 }
                 p{
                     text-align: left;
@@ -422,7 +422,7 @@
                 img{
                     height: 20px;
                     width: 26px;
-                    margin-left: 10px;
+                    margin-left: 0.625rem;
                 }
                 p{
                     text-align: left;
@@ -470,13 +470,13 @@
         }
     }
     &-location{
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
         p{
             text-align: center;
             &:last-child{
                 span{
-                    margin-right: 55px;
+                    margin-right: 3.4375rem;
                 }
             }
             span{

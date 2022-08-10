@@ -1,57 +1,57 @@
 //==========Testimonial section start here==========// 
 .testimonial{
-    padding: 150px 0;
+    padding: 9.375rem 0;
     text-align: center;
     &-wrapper{
         &-title{
-            margin-bottom: 75px;
+            margin-bottom: 4.6875rem;
             h1{
                 font-style: normal;
                 font-weight: 400;
-                font-size: 48px;
+                font-size: 3rem;
                 line-height: 55px;
                 text-align: center;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.0125rem;
                 color: #252B42;
             }
         }
         &-image{
-            margin-bottom: 60px;
+            margin-bottom: 3.75rem;
             img{}
         }
         &-comment{
-            margin-bottom: 60px !important;
+            margin-bottom: 3.75rem !important;
             max-width: 985px;
             margin: 0 auto;
             p{
                 font-style: normal;
                 font-weight: 400;
-                font-size: 28px;
+                font-size: 1.75rem;
                 line-height: 40px;
                 text-align: center;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.0125rem;
                 color: #374754;
             }
         }
         &-person{
-            margin-bottom: 100px;
+            margin-bottom: 6.25rem;
             display: flex;
             justify-content: center;
             &-image{
-                margin-right: 20px;
+                margin-right: 1.25rem;
             }
             &-content{
                 &-name{
                     p{
                         margin: 0;
-                        margin-bottom: 3px;
+                        margin-bottom: 0.1875rem;
                         padding: 0;
                         float: left;
                         font-style: normal;
                         font-weight: 400;
-                        font-size: 16px;
+                        font-size: 1rem;
                         line-height: 23px;
-                        letter-spacing: 0.1px;
+                        letter-spacing: 0.0063rem;
                         color: #374754;
 
                     }
@@ -69,18 +69,18 @@
             a{
                 font-style: normal;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 28px;
-                letter-spacing: 0.1px;
+                letter-spacing: 0.0063rem;
                 color: #FFFFFF;
                 background-color: #2091F9;
-                padding: 17px 51px;
+                padding: 1.0625rem 3.1875rem;
                 text-decoration: none;
                 border-radius: 35px;
                 &:hover{
                     background-color: #E637B8;
                     transition: all 500ms linear;
-                    border: 1px solid #E637B8;
+                    border: 0.0625rem solid #E637B8;
                 }
             }
         }
