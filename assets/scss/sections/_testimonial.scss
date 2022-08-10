@@ -77,6 +77,11 @@
                 padding: 17px 51px;
                 text-decoration: none;
                 border-radius: 35px;
+                &:hover{
+                    background-color: #E637B8;
+                    transition: all 500ms linear;
+                    border: 1px solid #E637B8;
+                }
             }
         }
     }

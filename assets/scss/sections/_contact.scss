@@ -35,6 +35,8 @@
             padding: 50px;
             margin: 0 70px;
             border-radius: 20px;
+            -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.33); 
+            box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.33);
             h4{
                 margin-bottom: 45px;
                 font-style: normal;
@@ -75,6 +77,10 @@
                 color: #ffffff;
                 width: 145px;
                 font-size: 20px;
+                &:hover{
+                    background-color: #E637B8;
+                    transition: all 500ms linear;
+                }
             }
         }
     }
@@ -83,23 +89,31 @@
             display: flex;
             flex-wrap: nowrap;
             justify-content: space-between;
-
             &-location{
                 max-width: 300px;
                 text-align: center;
-                img{}
+                i{
+                    font-size: 32px;
+                    color: #2091F9;
+                }
                 p{}
             }
             &-mobile{
                 max-width: 300px;
                 text-align: center;
-                img{}
+                i{
+                    font-size: 32px;
+                    color: #2091F9;
+                }
                 p{}
             }
             &-mail{
                 max-width: 300px;
                 text-align: center;
-                img{}
+                i{
+                    font-size: 32px;
+                    color: #2091F9;
+                }
                 p{}
             }
         }
@@ -123,6 +137,14 @@
                 gap: 30px;
                 li{
                     list-style-type: none;
+                    a{
+                        color: #2091F9;
+                        font-size: 32px;
+                        transition: 0.5s;
+                        &:hover{
+                            color: #E637B8;
+                        }
+                    }
                 }
             }
         }

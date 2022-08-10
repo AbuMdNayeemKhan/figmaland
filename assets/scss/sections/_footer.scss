@@ -20,6 +20,10 @@
                 font-weight: 400;
                 font-size: 15px;
                 letter-spacing: 0.2px;
+                &:hover{
+                    color: #E637B8;
+                    transition: all 500ms linear;
+                }
             }
             &:first-child{
                 margin-bottom: 10px;
@@ -33,7 +37,10 @@
     &-location{
         p{
             color: #ffffff;
-            span{ margin-right: 15px;}
+            span{
+                margin-right: 15px;
+                font-size: 32px;
+            }
         }
         ul{
             display: flex;
@@ -43,7 +50,14 @@
             margin: 0;
             margin-top: 30px;
             li{
-                img{}
+                a{
+                    color: #fff;
+                    font-size: 32px !important;
+                    transition: 0.5s;
+                    &:hover{
+                        color: #E637B8;
+                    }
+                }
             }
         }
     }

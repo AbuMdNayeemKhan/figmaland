@@ -1,6 +1,8 @@
 //==========Nav section style start here==========// 
 .nav-section{
     height: 165px;
+    z-index: 99;
+    position: relative;
     &-wrapper{
         height: 165px;
         display: flex;
@@ -35,6 +37,14 @@
                 padding: 0;
                 li{
                     list-style-type: none;
+                    a{
+                        font-size: 32px;
+                        color: #fff;
+                        transition: 0.5s;
+                        &:hover{
+                            color: #E637B8;
+                        }
+                    }
                 }
             }
         }
