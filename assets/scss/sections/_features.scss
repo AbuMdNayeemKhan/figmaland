@@ -68,17 +68,24 @@
     }
     &-video{
         &-wrapper{
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%; 
-            height: 0;
-            iframe{
-                position: absolute;
-                top:0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
+            display:table;
+            width:auto;
+            position:relative;
+            width:100%;
+        }
+        .playpause {
+            background-image:url('/assets/img/play-btn.png');
+            background-repeat:no-repeat;
+            width:35%;
+            height:35%;
+            position:absolute;
+            left:0%;
+            right:0%;
+            top:0%;
+            bottom:0%;
+            margin:auto;
+            background-size:contain;
+            background-position: center;
         }
     }
 }
